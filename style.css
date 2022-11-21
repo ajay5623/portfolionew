@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: black;
+}
+.nav{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+     font-size: 20px;
+     margin-top:15px;
+}
+.li:hover{
+    background-color: aqua;
+    border-radius: 15px;
+
+}
+
+
+.li {
+  display: inline;
+  line-height:40px;
+  padding: 10px;
+
+ 
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+
+}
+.image{
+ width: 250px;
+
+ float: right;
+ margin-right: 90px;
+ border-radius: 50px;
+ 
+  
+}
+   .con{
+   
+   margin-left: 40%;
+   font-size:20px ;
+   color: white;
+   
+}
+.cone{
+    margin-left: 40%;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.cone:hover{
+    background-color: blueviolet;
+}
+
+.main{
+    margin-top: 10%;
+}
+button{
+    background-color: black;
+    border: 1PX solid green;
+}
+p,h2{
+  color: white;
+}
+.contact-cantainer{
+   width: 90%;
+   height: 400px;
+   margin: 5% auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 150px;
+    grid-gap:10px
+}
+.phone-img{
+    width:40px;
+    margin-left:120px;
+    margin-top: 10px;
+    
+}
+.div{
+    color:white;
+
+}
